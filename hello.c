@@ -1,9 +1,12 @@
 #include<stdio.h>
-int main{
-	printf("Hello class");
+int main(){
+	printf("Hello class\n");
+	char name[20];
+	scanf("%s", name);
 	for(int i=1; i<11;i++){
-		printf("hello");
+		printf("hello %s\n", name);
 	}
-	printf("Hello 2");
+	printf("Hello 2\n");
+	printf("enter numbers for calculation");
 }
 
